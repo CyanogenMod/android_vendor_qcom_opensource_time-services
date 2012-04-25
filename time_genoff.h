@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2010, Code Aurora Forum. All rights reserved.
+ * Copyright (c) 2010-2012, Code Aurora Forum. All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are met:
@@ -37,15 +37,16 @@ typedef enum time_bases {
 	ATS_RTC = 0,
 	ATS_TOD,
 	ATS_USER,
+	ATS_SECURE,
 	ATS_RESERVED_1,
 	ATS_RESERVED_2,
 	ATS_RESERVED_3,
-	ATS_RESERVED_4,
 	ATS_GPS,
 	ATS_1X,
-	ATS_RESERVED_5,
+	ATS_RESERVED_4,
 	ATS_WCDMA,
-	ATS_RESERVED_6,
+	ATS_SNTP,
+	ATS_MFLO,
 	ATS_INVALID
 } time_bases_type;
 
