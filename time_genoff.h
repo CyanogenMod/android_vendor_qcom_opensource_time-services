@@ -47,6 +47,7 @@ typedef enum time_bases {
 	ATS_WCDMA,
 	ATS_SNTP,
 	ATS_UTC,
+	ATS_MODEM,
 	ATS_MFLO,
 	ATS_INVALID
 } time_bases_type;
